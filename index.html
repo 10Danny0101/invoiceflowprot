@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InvoiceFlow</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>InvoiceFlow</h1>
+            <button class="account-btn">My Account</button>
+        </header>
+        <div class="main">
+            <aside class="sidebar">
+                <nav>
+                    <ul>
+                        <li>Create Invoice</li>
+                        <li>Sent Invoices</li>
+                        <li>Payments</li>
+                        <li>Reports</li>
+                        <li>Settings</li>
+                    </ul>
+                </nav>
+            </aside>
+            <section class="invoice-form">
+                <h2>New Invoice</h2>
+                <input type="text" placeholder="Client Name">
+                <select>
+                    <option>Graphic Design</option>
+                    <option>Web Development</option>
+                    <option>Consultation</option>
+                </select>
+                <input type="text" placeholder="Amount (₦)">
+                <input type="text" placeholder="Client Contact">
+                <button class="send-btn">Send Invoice</button>
+                <div class="summary">
+                    <div class="card yellow">Pending Invoices <strong>₦25,000</strong></div>
+                    <div class="card green">Paid Invoices <strong>₦90,000</strong></div>
+                    <div class="card red">Overdue <strong>₦7,000</strong></div>
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
